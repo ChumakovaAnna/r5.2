@@ -1,14 +1,16 @@
 import {nanoid} from "nanoid";
-import image from "./images/image.jpg";
+import image from "./images/image.svg";
+import star1 from "./images/star1.svg";
+import star2 from "./images/star2.svg";
 
 export const newsLink = ["Сейчас в СМИ", "в Германии", "Рекомендуем"];
 
 export const news = [
-  {id: nanoid(), icon: "icon", link: "#", text: "Текст новости"},
-  {id: nanoid(), icon: "icon", link: "#", text: "Текст новости"},
-  {id: nanoid(), icon: "icon", link: "#", text: "Текст новости"},
-  {id: nanoid(), icon: "icon", link: "#", text: "Текст новости"},
-  {id: nanoid(), icon: "icon", link: "#", text: "Текст новости"}
+  {id: nanoid(), icon: star1, link: "#", text: "Текст новости"},
+  {id: nanoid(), icon: star2, link: "#", text: "Текст новости"},
+  {id: nanoid(), icon: star1, link: "#", text: "Текст новости"},
+  {id: nanoid(), icon: star2, link: "#", text: "Текст новости"},
+  {id: nanoid(), icon: star1, link: "#", text: "Текст новости"}
 ];
 
 export const course = [
@@ -32,7 +34,7 @@ export const bannerBig = {
 }
 
 export const weather = {
-  img: image,
+  img: star1,
   now: "+17",
   morning: "+17",
   day: "+20"
