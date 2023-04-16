@@ -1,3 +1,12 @@
+.App {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
 .newsBlock {
   display: flex;
   flex-direction: row;
@@ -6,4 +15,63 @@
 
 .new {
   display: block;
+}
+
+.courseBlock {
+  display: flex;
+}
+
+.course {
+  margin-right: 10px;
+}
+
+.bannerSmall {
+  width: 250px;
+  margin-left: 40px;
+  padding: 5px;
+
+  border: 1px solid #000000;
+
+  text-align: center;
+}
+
+.searchLinks {
+  display: flex;
+  margin-top: 20px;
+}
+
+.searchLinks div {
+  margin-right: 10px;
+}
+
+.bannerBig {
+  width: 400px;
+  margin-top: 20px;
+  padding: 10px;
+
+  border: 1px solid #000000;
+}
+
+.widgetBlock {
+  display: flex;
+}
+
+.widget {
+  /* width: 200px; */
+  margin: 20px;
+  padding: 10px;
+
+  border: 1px solid #000000;
+}
+
+.weather {
+  display: flex;
+}
+
+.weather div {
+  margin-right: 10px;
+}
+
+li span {
+  margin-right: 5px;
 }

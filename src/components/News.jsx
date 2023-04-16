@@ -1,3 +1,6 @@
+/**
+ * список новостей отдельной категории новостей
+ */
 import React from 'react'
 
 export default function News({news}) {

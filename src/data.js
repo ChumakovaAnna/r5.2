@@ -2,6 +2,7 @@ import {nanoid} from "nanoid";
 import image from "./images/image.svg";
 import star1 from "./images/star1.svg";
 import star2 from "./images/star2.svg";
+import banner from "./images/banner.svg";
 
 export const newsLink = ["Сейчас в СМИ", "в Германии", "Рекомендуем"];
 
@@ -29,7 +30,7 @@ export const bannerSmall = {
 export const searchLinks = ["Видео", "Картинки", "Новости", "Карты", "Маркет", "Переводчик", "Эфир", "еще"];
 
 export const bannerBig = {
-  img: "./",
+  img: banner,
   link: "#"
 }
 
